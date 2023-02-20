@@ -59,7 +59,7 @@ const ExpensePopup = (
             ref={TitleRef}
             onChange={()=>{
             setTitle(TitleRef.current.value)
-            }}></input >
+            }}></input>
             </div>
             <p className='text-red-500 font-bold'>{TitleErr}</p>
             {/* Expense */}
